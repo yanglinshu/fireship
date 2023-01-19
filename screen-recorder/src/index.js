@@ -6,13 +6,18 @@ if (require('electron-squirrel-startup')) {
   app.quit();
 }
 
+// Fallback for electron remote, since electron 14
+const remoteMain = require('@electron/remote/main');
+remoteMain.initialize();
+
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1600,
+    height: 1200,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
+      nodeIntegration: true,
     },
   });
 
@@ -21,6 +26,8 @@ const createWindow = () => {
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
+
+  remoteMain.enable(mainWindow.webContents);
 };
 
 // This method will be called when Electron has finished
@@ -48,6 +55,7 @@ app.on('activate', () => {
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
 
+// Main-Renderer communication, since electron 14
 ipcMain.handle('get-sources', (_, options) => {
   return desktopCapturer.getSources(options);
-})
+});
