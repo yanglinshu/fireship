@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />  
+  <title>Screon: an useless screen recorder</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <video></video>
+  <button id="startBtn" class="button is-primary">Start</button>
+  <button id="stopBtn" class="button is-warning">Stop</button>
+  <hr>
+  <button id="sourceBtn" class="button is-text">Choose Video Source</button>
+</body>
+
 </html>
