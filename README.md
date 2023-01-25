@@ -9,3 +9,4 @@ This repository contains the source code for the [Fireship YouTube channel](http
 - Nest-Mongo: [RESTful APIs in 100 Seconds // Build an API from Scratch with Node.js Express](https://www.youtube.com/watch?v=-MTSQjw5DrM), [Learn Nest.js from Scratch by building an API](https://www.youtube.com/watch?v=F_oOtaxb0L8) and [Nest.js with MongoDB - Complete Example](https://www.youtube.com/watch?v=ulfU5vY6I78)
 - Svelte-TODO: [SvelteKit is my mistress](https://www.youtube.com/watch?v=uEJ-Rnm2yOE)
 - Qwik-TODO: [Qwik… the world's first O(1) JavaScript framework?](https://www.youtube.com/watch?v=x2eF3YLiNhY)
+- Solid-Astro-TODO: [a solid start](https://www.youtube.com/watch?v=DVWu2b7mvFg) and [Astro just Launched.... Could it be the ultimate web framework?](https://www.youtube.com/watch?v=gxBkghlglTg).
