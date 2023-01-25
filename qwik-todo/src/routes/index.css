@@ -1,0 +1,35 @@
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.todo-list {
+    padding: 0 1rem;
+}
+
+.todo-list-add {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.todo-list-add input {
+    flex: 0.4;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.todo-list-add button {
+    padding: 0.5rem 1rem;
+    border: 2px solid #18b6f6;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
