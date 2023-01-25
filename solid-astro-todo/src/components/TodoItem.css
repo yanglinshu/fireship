@@ -1,0 +1,9 @@
+li {
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+}
+
+li .text {
+    display: inline-block;
+    padding-left: .25rem;
+}
