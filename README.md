@@ -12,3 +12,4 @@ This repository contains the source code for the [Fireship YouTube channel](http
 - Solid-Astro-TODO: [a solid start](https://www.youtube.com/watch?v=DVWu2b7mvFg) and [Astro just Launched.... Could it be the ultimate web framework?](https://www.youtube.com/watch?v=gxBkghlglTg).
 - Firebase-WebRTC: [WebRTC in 100 Seconds // Build a Video Chat app from Scratch](https://www.youtube.com/watch?v=WmR9IMUD_CY)
 - Serverless-Boxout: [Serverless Computing in 100 Seconds // Build a Serverless App from Scratch](https://www.youtube.com/watch?v=W_VV2Fx32_Y)
+- Chalk-CLI: [I created a Command Line Game for you // 5-Minute Node.js CLI Project](https://www.youtube.com/watch?v=_oHByo8tiEY&t=199s)
