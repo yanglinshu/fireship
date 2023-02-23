@@ -1315,7 +1315,6 @@ export type PastLaunchesListQuery = {
       __typename?: 'LaunchLinks';
       flickr_images?: Array<string | null> | null;
       mission_patch_small?: string | null;
-      mission_patch?: string | null;
     } | null;
     rocket?: {
       __typename?: 'LaunchRocket';
@@ -1359,7 +1358,6 @@ export const PastLaunchesListDocument = gql`
       links {
         flickr_images
         mission_patch_small
-        mission_patch
       }
       rocket {
         rocket_name
