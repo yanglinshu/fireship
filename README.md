@@ -13,3 +13,4 @@ This repository contains the source code for the [Fireship YouTube channel](http
 - Firebase-WebRTC: [WebRTC in 100 Seconds // Build a Video Chat app from Scratch](https://www.youtube.com/watch?v=WmR9IMUD_CY)
 - Serverless-Boxout: [Serverless Computing in 100 Seconds // Build a Serverless App from Scratch](https://www.youtube.com/watch?v=W_VV2Fx32_Y)
 - Chalk-CLI: [I created a Command Line Game for you // 5-Minute Node.js CLI Project](https://www.youtube.com/watch?v=_oHByo8tiEY&t=199s)
+- GraphQL-SpaceX: [GraphQL Basics - Build an app with the SpaceX API](https://www.youtube.com/watch?v=7wzR4Ig5pTI)
